@@ -12,8 +12,8 @@ nav {
 	max-width: 800px;
 	margin: auto;
 	font-family: arial, sans-serif;
-	font-size: 1.5em;
-	background-color: whitesmoke;
+	font-size: 1em;
+	background-color: rgb(255, 229, 204);
 
 }
 
@@ -24,3 +24,17 @@ nav ul {
 	justify-content: space-evenly;
 
 	}
+
+	nav ul li {
+
+		background-color: rgb(255, 229, 204);
+		flex-flow: row wrap;
+		list-style-type: none;
+		padding:1em;
+		max-width: 100%;
+
+	}
+
+	nav ul li a {
+	text-decoration: none;
+}
