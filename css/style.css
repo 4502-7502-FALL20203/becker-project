@@ -38,3 +38,31 @@ nav ul {
 	nav ul li a {
 	text-decoration: none;
 }
+
+main {
+	max-width: 800px;
+	margin: auto;
+	font-size: 1rem;
+}
+
+p {
+	font-family: 'DM Serif Display', serif;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
