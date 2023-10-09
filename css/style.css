@@ -52,6 +52,13 @@ p {
 }
 
 
+h1 {
+	font-family:'DM Serif Display', serif;
+	font-size: 3em;
+	margin: 2em;
+
+}
+
 @media screen and (max-width: 479px) {
 
 main {
