@@ -3,7 +3,7 @@
 
 
 body {
-		background-color: rgb(255, 329, 204);
+		background-color: rgb(255, 229, 204);
 
 	}
 
@@ -12,5 +12,6 @@ nav {
 	max-width: 800px;
 	margin: auto;
 	font-family: didot, serif;
+	font-size: 2em;
 
 }
