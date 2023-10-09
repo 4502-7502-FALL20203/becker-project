@@ -52,6 +52,24 @@ p {
 }
 
 
+@media screen and (max-width: 479px) {
+
+main {
+	width: 100%;
+}
+
+img {
+
+	align-items: center;
+}
+
+
+
+
+
+}
+
+
 
 
 
