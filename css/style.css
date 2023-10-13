@@ -9,7 +9,7 @@ body {
 
 nav {
 
-	max-width: 900px;
+	max-width: 800px;
 	margin: auto;
 	font-family: arial, sans-serif;
 	font-size: 1em;
@@ -59,7 +59,7 @@ h1 {
 
 }
 
-@media screen and (max-width: 479px) {
+@media and (min-width: 800px) {
 
 main {
 	width: 100%;
@@ -76,7 +76,7 @@ img {
 
 
 .media-holder {
-  width: 100%;
+  width: 300px;
   margin: 4rem 0;
   display: flex;
   flex-direction: column;
@@ -104,7 +104,32 @@ footer {
 
 }
 
+@media screen and (min-width: 555px) {
 
+ .media-holder {
+    flex-direction: row;
+  }
+
+  .image-holder {
+    width: 30%;
+  }
+
+  .media-list .text-holder {
+    width: 70%;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  nav li {
+    width: 50%;
+  }
+
+
+}
 
 
 
