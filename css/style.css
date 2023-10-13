@@ -69,7 +69,7 @@ img {
 
 	align-items: center;
 	display: flex;
-	width: 300px !important;
+	width: 300px;
 	height: auto;
 	border: 0;
 }
@@ -80,8 +80,7 @@ img {
   margin: 4rem 0;
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
-  box-sizing: border-box;
+
 }
 
 .image-holder img {
@@ -90,21 +89,29 @@ img {
   margin: 0 auto;
 }
 
+.text-holder {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
 footer {
   background: #754902;
   color: rgb(255, 229, 204);
   width: 100%;
   margin: 0;
   padding: 1rem;
-  box-sizing: border-box;
   text-align: center;
   font-weight: bold;
 }
 
 
-}
 
-@media screen and (min-width: 555px) {
+
+@media screen and (min-width:555px) {
 
  .media-holder {
     flex-direction: row;
