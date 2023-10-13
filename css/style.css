@@ -69,8 +69,8 @@ img {
 
 	align-items: center;
 	display: flex;
-	max-width: 300px !important;
-	max-height: 300px;
+	width: 300px;
+	height: auto;
 	border: 0;
 }
 
