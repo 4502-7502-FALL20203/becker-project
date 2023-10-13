@@ -68,6 +68,7 @@ main {
 img {
 
 	align-items: center;
+	display: flex;
 	max-width: 200px;
 	max-height: 200px;
 	border: 0;
