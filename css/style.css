@@ -141,7 +141,10 @@ img {
 
 }
 
+main a {
 
+	color: black;
+}
 
 
 @media screen and (min-width:555px) {
