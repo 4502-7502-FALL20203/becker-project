@@ -14,7 +14,7 @@ nav {
 	font-family: arial, sans-serif;
 	font-size: 1em;
 	color: rgb(255, 229, 204);
-	background: #754902
+	background: #754902;
 	border-bottom: 3px solid #000000;
 
 }
@@ -26,7 +26,7 @@ nav ul {
 	justify-content: space-evenly;
 	width: 100%;
 	color: rgb(255, 229, 204)
-	background: #754902
+	background: #754902;
 	}
 
 	nav ul li {
@@ -48,6 +48,13 @@ main {
 	max-width: 700px;
 	margin: auto;
 	font-size: 1rem;
+}
+
+a {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 p {
