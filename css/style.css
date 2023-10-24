@@ -52,7 +52,7 @@ main {
 
 a {
   font-weight: bold;
-  font-style: italic;
+  font-style: normal;
   text-decoration: none;
   color: whitesmoke;
 }
