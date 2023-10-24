@@ -22,7 +22,8 @@ nav ul {
 	align-items: center;
 	flex-direction: row;
 	justify-content: space-evenly;
-
+	width: 100%;
+	color: rgb(255, 229, 204)
 	}
 
 	nav ul li {
