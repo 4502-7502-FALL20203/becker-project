@@ -24,6 +24,7 @@ nav ul {
 	justify-content: space-evenly;
 	width: 100%;
 	color: rgb(255, 229, 204)
+	background: #754902
 	}
 
 	nav ul li {
@@ -33,6 +34,7 @@ nav ul {
 		list-style-type: circle;
 		padding:1em;
 		max-width: 100%;
+		background: #754902
 
 	}
 
