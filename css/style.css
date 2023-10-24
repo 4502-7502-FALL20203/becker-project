@@ -31,7 +31,7 @@ nav ul {
 
 	nav ul li {
 
-		background-color: rgb(255, 229, 204);
+		color: rgb(255, 229, 204);
 		flex-flow: row wrap;
 		list-style-type: circle;
 		padding:1em;
