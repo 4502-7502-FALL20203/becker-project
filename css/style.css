@@ -13,7 +13,9 @@ nav {
 	margin: auto;
 	font-family: arial, sans-serif;
 	font-size: 1em;
-	background-color: rgb(255, 229, 204);
+	color: rgb(255, 229, 204);
+	background: #754902
+	border-bottom: 3px solid #000000;
 
 }
 
