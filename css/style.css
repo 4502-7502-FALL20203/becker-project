@@ -33,7 +33,7 @@ nav ul {
 		flex-flow: row wrap;
 		list-style-type: circle;
 		padding:1em;
-		max-width: 100%;
+		width: 100%;
 		background: #754902
 
 	}
@@ -137,7 +137,11 @@ img {
   }
 
   nav li {
-    width: 50%;
+    width:100%;
+    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
 
 
