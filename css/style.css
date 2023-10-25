@@ -48,9 +48,9 @@ main {
 	width: 90%;
 	max-width: 1000px;
 	border-radius: 1rem;
-	  background: #FFF;
-	  padding: 1 rem 2 rem;
-	  box-sizing: border-box;
+	 background: #FFF;
+	 padding: 2 rem;
+	 box-sizing: border-box;
 	margin: 1rem auto;
 	font-size: 1rem;
 }
