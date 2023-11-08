@@ -105,7 +105,7 @@ footer {
   box-sizing: border-box;
 }
 
-@media and (min-width: 800px) {
+@media (min-width: 800px) {
 
 main {
 	width: 90%;
@@ -130,7 +130,7 @@ img {
 } */
 
 .image-holder img {
-  width: 100%;
+  width: 75%;
   max-width: 250px;
   margin: 0 auto;
 }
@@ -153,7 +153,7 @@ main a {
 }
 
 
-@media screen and (min-width:555px) {
+@media screen (min-width:555px) {
 
  .media-holder {
     flex-direction: row;
