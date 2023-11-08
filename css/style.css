@@ -1,6 +1,9 @@
 
 
 
+html {
+font-size: 20px;
+}
 
 body {
 		background-color: rgb(255, 229, 204);
@@ -96,7 +99,7 @@ footer {
   box-sizing: border-box;
 }
 
-.text-holder {
+.image-holder,.text-holder {
   width: 100%;
   padding: 0;
   margin: 0;
@@ -105,7 +108,7 @@ footer {
   box-sizing: border-box;
 }
 
-@media (min-width: 800px) {
+
 
 main {
 	width: 90%;
@@ -120,14 +123,16 @@ img {
 	border: 0;
 }
 
-/*
-.media-holder {
+
+.location-holder, .media-holder {
   width: 300px;
   margin: 4rem 0;
   display: flex;
   flex-direction: column;
+   gap: 1.2rem;
+  box-sizing: border-box;
 
-} */
+} 
 
 .image-holder img {
   width: 75%;
@@ -135,25 +140,47 @@ img {
   margin: 0 auto;
 }
 
-/*
-.text-holder {
+
+.image-holder, .text-holder {
   width: 100%;
   padding: 0;
   margin: 0;
   display: flex;
   flex-direction: column;
+   box-sizing: border-box;
  
-} */
+} 
 
-}
+
 
 main a {
 
 	color: black;
 }
 
+.gallery-image {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  margin: 4rem auto;
+  width: 100%;
+  max-width: 700px;
+}
 
-@media screen (min-width:555px) {
+.gallery-image img {
+  width: 100%;
+}
+
+.button_holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+
+@media (min-width:555px) {
 
  .media-holder {
     flex-direction: row;
