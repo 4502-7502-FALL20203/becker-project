@@ -142,15 +142,7 @@ img {
 }
 
 
-.location-holder, .media-holder {
-  width: 300px;
-  margin: 4rem 0;
-  display: flex;
-  flex-direction: column;
-   gap: 1.2rem;
-  box-sizing: border-box;
 
-} 
 
 .image-holder img {
   width: 100%;
@@ -159,15 +151,6 @@ img {
 }
 
 
-.image-holder, .text-holder {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-   box-sizing: border-box;
- 
-} 
 
 
 
