@@ -70,7 +70,7 @@ nav ul {
 	max-width: 1000px;
 	border-radius: 1rem;
 	 background: #FFF;
-	 padding: 3rem;
+	 padding: 1rem 2rem;
 	 box-sizing: border-box;
 	margin: 1rem auto;
 	font-size: 1rem;
@@ -95,6 +95,10 @@ h1 {
 	font-size: 3em;
 	margin: 1em;
 
+}
+
+h1, h2, h3 {
+ margin: 0
 }
 
 footer {
